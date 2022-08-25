@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(orange, brown );
 }
 
 button {
@@ -31,7 +31,29 @@ button {
   margin: 10px;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 20px 18px 18px;
+  padding: 15px 20px 5px 30px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  align-items: center;
+}
+
+#tasks {
+  padding: 10px;
+}
+
+h2 {
+  align-items: center;
+  padding: 2px 20px 0px 20px;
+}
+
+#fresh {
+  color: darkturquoise;
+}
+
+#hot {
+  color: crimson;
+}
+
+#cool {
+  color: cornflowerblue;
 }
